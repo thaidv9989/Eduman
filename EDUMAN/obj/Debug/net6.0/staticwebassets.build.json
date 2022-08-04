@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "0nxX1bkriP7OVXbzvqOGoykVtcQ9Z+b4BirrOwU1ViU=",
+  "Source": "EDUMAN",
+  "BasePath": "_content/EDUMAN",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EDUMAN\\wwwroot",
+      "Source": "EDUMAN",
+      "ContentRoot": "C:\\Users\\BK\\source\\holas\\EDUMAN\\EDUMAN\\wwwroot\\",
+      "BasePath": "_content/EDUMAN",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\BK\\source\\holas\\EDUMAN\\EDUMAN\\wwwroot\\Images\\de.PNG",
+      "SourceId": "EDUMAN",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BK\\source\\holas\\EDUMAN\\EDUMAN\\wwwroot\\",
+      "BasePath": "_content/EDUMAN",
+      "RelativePath": "Images/de.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\de.PNG"
+    }
+  ]
+}
