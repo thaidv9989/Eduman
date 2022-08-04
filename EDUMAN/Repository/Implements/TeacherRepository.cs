@@ -30,17 +30,22 @@ namespace EDUMAN.Repository.Implements
 
         public void Edit(teacher tc)
         {
-            throw new NotImplementedException();
+            var rs = _dbContext.teachers.Where(x => x.teacher_id == tc.teacher_id).FirstOrDefault();
+            if (rs != null)
+            {
+                _dbContext.teachers.Update(rs);
+                _dbContext.SaveChanges();
+            }
         }
 
         public List<teacher> GetAll()
         {
-            throw new NotImplementedException();
+            return _dbContext.teachers.ToList();
         }
 
         public teacher? GetByTeacherId(string id)
         {
-            throw new NotImplementedException();
+            return _dbContext.teachers.FirstOrDefault(x => x.teacher_id == id);
         }
     }
 }
